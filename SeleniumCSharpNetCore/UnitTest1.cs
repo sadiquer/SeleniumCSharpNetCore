@@ -1,5 +1,6 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using System.Reflection;
 
 namespace SeleniumCSharpNetCore
 {
@@ -27,8 +28,17 @@ namespace SeleniumCSharpNetCore
             CustomControl.ComboBox("ContentPlaceHolder1_AllMealsCombo", "Almond");
 
 
-            Console.WriteLine("Test1");
+            //Taking ScreenShot
+            var dir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location).ToString();
+            var screenshot = (Driver as ITakesScreenshot).GetScreenshot();
+            screenshot.SaveAsFile($"{dir}\\screenshot" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss") + ".png");
+
+
+            //((ITakesScreenshot)Driver).GetScreenshot().SaveAsFile("Snapshot" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss") + ".png", ScreenshotImageFormat.Png);
+
             Assert.Pass();
+            Driver.Close();
+            Driver.Quit();
         }
     }
 }

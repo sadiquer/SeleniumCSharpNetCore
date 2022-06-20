@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sadique.rahman\\source\\repos\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj": {}
+    "C:\\Users\\sadique.rahman\\Documents\\GitHub\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sadique.rahman\\source\\repos\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj": {
+    "C:\\Users\\sadique.rahman\\Documents\\GitHub\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sadique.rahman\\source\\repos\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj",
+        "projectUniqueName": "C:\\Users\\sadique.rahman\\Documents\\GitHub\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj",
         "projectName": "SeleniumCSharpNetCore",
-        "projectPath": "C:\\Users\\sadique.rahman\\source\\repos\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj",
+        "projectPath": "C:\\Users\\sadique.rahman\\Documents\\GitHub\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj",
         "packagesPath": "C:\\Users\\sadique.rahman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sadique.rahman\\source\\repos\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\obj\\",
+        "outputPath": "C:\\Users\\sadique.rahman\\Documents\\GitHub\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sadique.rahman\\AppData\\Roaming\\NuGet\\NuGet.Config",
