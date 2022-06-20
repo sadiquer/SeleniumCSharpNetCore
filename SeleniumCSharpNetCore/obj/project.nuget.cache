@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3xNp2vcL1kdpDdcdj9DDlfZOw+idWixlty7IsnLAsa8VRBHlTRQc5MHlB35eWnRq6Lh1bSzFsHE2AAn9K7YtdA==",
+  "dgSpecHash": "P5SZiPlAFv2CPq2/n+7axisvULFOVLhB8jYYUjs9ToOjTO4sb+EFrlsQReCX8hWD6x1TIvjn5WVCDAG6WhNhBA==",
   "success": true,
   "projectFilePath": "C:\\Users\\sadique.rahman\\Documents\\GitHub\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj",
   "expectedPackageFiles": [
@@ -18,10 +18,7 @@
     "C:\\Users\\sadique.rahman\\.nuget\\packages\\nunit3testadapter\\4.2.1\\nunit3testadapter.4.2.1.nupkg.sha512",
     "C:\\Users\\sadique.rahman\\.nuget\\packages\\selenium.webdriver\\4.2.0\\selenium.webdriver.4.2.0.nupkg.sha512",
     "C:\\Users\\sadique.rahman\\.nuget\\packages\\selenium.webdriver.chromedriver\\102.0.5005.6102\\selenium.webdriver.chromedriver.102.0.5005.6102.nupkg.sha512",
-    "C:\\Users\\sadique.rahman\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
-    "C:\\Users\\sadique.rahman\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\sadique.rahman\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\sadique.rahman\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\sadique.rahman\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
   "logs": []
 }
