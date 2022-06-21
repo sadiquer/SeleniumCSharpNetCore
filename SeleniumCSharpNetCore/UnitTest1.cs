@@ -1,5 +1,6 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using SeleniumCSharpNetCore.Pages;
 using System.Reflection;
 
 namespace SeleniumCSharpNetCore
@@ -37,8 +38,19 @@ namespace SeleniumCSharpNetCore
             //((ITakesScreenshot)Driver).GetScreenshot().SaveAsFile("Snapshot" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss") + ".png", ScreenshotImageFormat.Png);
 
             Assert.Pass();
-            Driver.Close();
-            Driver.Quit();
+           
+        }
+
+        [Test]
+        public void LoginTest()
+        {
+            Driver.Navigate().GoToUrl("http://eaapp.somee.com/");
+            HomePage homePage = new HomePage();
+            LoginPage loginPage = new LoginPage();
+            homePage.ClickLogin();
+            loginPage.EnterUserNameAndPassword("admin", "password");
+            loginPage.ClickLogin();
+            Assert.That(homePage.IsLogOffExist, Is.True, "Log off button not displayed");
         }
     }
 }
